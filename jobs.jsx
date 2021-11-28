@@ -49,5 +49,5 @@ const  getmyUser=async ()=>{
  
  },[])
 
-render({ <Card jobs={jobs} className="cardsjob" ondelete={handleDelete} onLike={handleLike} user={user}/>})
+render({ <Card jobs={jobs} className="cardsjob" />})
 
