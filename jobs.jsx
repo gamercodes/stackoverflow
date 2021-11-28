@@ -1,4 +1,5 @@
 import {GlobalState} from '../GlobalState'
+import Card from './Card';
 
 const state = useContext(GlobalState)
 const[jobs,setJobs]=state.categoriesAPI.jobs
