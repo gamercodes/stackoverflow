@@ -1,3 +1,5 @@
+import {GlobalState} from '../GlobalState'
+
 const state = useContext(GlobalState)
 const[jobs,setJobs]=state.categoriesAPI.jobs
 useEffect( ()=>{
